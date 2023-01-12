@@ -8,15 +8,18 @@ body{
 .container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 .nav{
     display: flex;
-    width: 70%;
+    width: 99%;
     justify-content: center;
     margin-top: 20px;
     background-color: #232324e0;
     border:0px;
-    border-radius:1vh;
+    border-radius:8px;
+    height: 58px;
+    width: 1258.2px;
    
     
 }
@@ -27,4 +30,32 @@ body{
 }
 .navbtn:hover{
     background-color: #363236c4;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.pfp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#pfp{
+    height: 300px;
+    width: 300px;
+}
+#name{
+    margin-top: 20px;
+    color: #cccccfe0;
+    font-family: cursive;
+}
+#sk{
+    height:150px;
+    width: 225px;
+    border: 1px;
+    border-radius: 50ch;
+    margin-top: 200px;
+    padding: 60px;
+    padding-bottom: 20px;
 }
