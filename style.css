@@ -12,14 +12,14 @@ body{
 }
 .nav{
     display: flex;
-    width: 99%;
+    width: 99%;  /*debugging purposes*/
     justify-content: center;
     margin-top: 20px;
     background-color: #232324e0;
     border:0px;
     border-radius:8px;
     height: 58px;
-    width: 1258.2px;
+    
    
     
 }
@@ -58,4 +58,26 @@ body{
     margin-top: 200px;
     padding: 60px;
     padding-bottom: 20px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#ab{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #cccccfe0;
+    font-family: cursive;
+    padding: 20px;
+}
+#abdesc{
+    display:flex ;
+    justify-content: center;
+    font-family: cursive;
+    color: #a9a9a9a6;
+    font-size: 14px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
